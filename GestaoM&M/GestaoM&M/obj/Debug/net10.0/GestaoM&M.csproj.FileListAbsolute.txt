@@ -1,0 +1,14 @@
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\bin\Debug\net10.0\GestaoM&M.exe
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\bin\Debug\net10.0\GestaoM&M.deps.json
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\bin\Debug\net10.0\GestaoM&M.runtimeconfig.json
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\bin\Debug\net10.0\GestaoM&M.dll
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\bin\Debug\net10.0\GestaoM&M.pdb
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.dll
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\refint\GestaoM&M.dll
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.pdb
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\GestaoM&M.genruntimeconfig.cache
+C:\Users\Matheus\source\repos\GestaoM&M\GestaoM&M\obj\Debug\net10.0\ref\GestaoM&M.dll

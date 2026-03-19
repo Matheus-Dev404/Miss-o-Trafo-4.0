@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "GestaoM&M/1.0.0": {
+        "runtime": {
+          "GestaoM&M.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestaoM&M/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
