@@ -22,15 +22,18 @@ namespace GestaoIndustrial
             string nome_maquina;
             double dados_sensor;
             string opcao;
+            
 
             do
             {
                 Console.Write("Digite o nome do transformador:");
                 nome_maquina = Console.ReadLine();
                 Console.WriteLine("Digite a medição do sensor");
-                while (!double.TryParse(Console.ReadLine(), out dados_sensor))
+                string entrada = Console.ReadLine().Replace('.', ',');
+                while (!double.TryParse(entrada, out dados_sensor))
                 {
                     Console.WriteLine("[Erro!] Digite apenas números! Tente novamente.");
+                    entrada = Console.ReadLine().Replace('.', ',');
                 }
 
                 Operacao.Add(new C_Operacao { Nome_Maquina = nome_maquina, Dados_Sensor = dados_sensor });
@@ -76,7 +79,7 @@ namespace GestaoIndustrial
             }
             media = soma / Operacao.Count;
             Console.Clear();
-            Console.WriteLine($"O resultado da média dos dados dos sensores é: {media}");
+            Console.WriteLine($"O resultado da média dos dados dos sensores é: {media:F2}");
             Console.WriteLine("Pressione algo para voltar ao menu principal...");
             Console.ReadKey();
             Console.Clear();
@@ -85,13 +88,16 @@ namespace GestaoIndustrial
 
     public static void Maior_Menor_Temperatura() //Impressao de maior e menor temperatura e maquina atribuida
         {
-            if (Operacao.Count > 0)
+            Console.Clear();
+            if (C_Operacao.Operacao.Count == 0)
             {
                 Console.WriteLine("Não há dados cadastrados");
+                Console.WriteLine("Pressione alguma tecla para voltar...");
+                Console.ReadKey();
+                Console.Clear();
+                return;
             }
-            else
-            {
-                C_Operacao maior = Operacao[0];
+            C_Operacao maior = Operacao[0];
                 C_Operacao menor = Operacao[0];
                 foreach (C_Operacao C_O in Operacao)
                 {
@@ -99,18 +105,18 @@ namespace GestaoIndustrial
                     {
                         maior = C_O;
                     }
-                    if (C_O.Dados_Sensor < maior.Dados_Sensor)
+                    if (C_O.Dados_Sensor < menor.Dados_Sensor)
                     {
                         menor = C_O;
                     }
                 }
                 Console.WriteLine("===== RESULTADO =====\n");
-                Console.WriteLine($"Maior temperatura:{maior.Dados_Sensor}°C");
+                Console.WriteLine($"Maior temperatura:{maior.Dados_Sensor:F2}°C");
                 Console.WriteLine($"Transformador:{maior.Nome_Maquina}\n");
 
-                Console.WriteLine($"Menor temperatura:{menor.Dados_Sensor}°C");
+                Console.WriteLine($"Menor temperatura:{menor.Dados_Sensor:F2}°C");
                 Console.WriteLine($"Transformador: {menor.Nome_Maquina}\n");
-            }
+            
             Console.WriteLine("\nPressione algo para voltar ao menu...");
             Console.ReadKey();
             Console.Clear();

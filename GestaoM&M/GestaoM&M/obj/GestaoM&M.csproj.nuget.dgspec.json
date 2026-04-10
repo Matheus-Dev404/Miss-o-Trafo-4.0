@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\source\\repos\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj": {}
+    "C:\\Users\\Matheus\\Downloads\\GestaoM&M\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\source\\repos\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj": {
+    "C:\\Users\\Matheus\\Downloads\\GestaoM&M\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\source\\repos\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\Downloads\\GestaoM&M\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj",
         "projectName": "GestaoM&M",
-        "projectPath": "C:\\Users\\Matheus\\source\\repos\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj",
+        "projectPath": "C:\\Users\\Matheus\\Downloads\\GestaoM&M\\GestaoM&M\\GestaoM&M\\GestaoM&M.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\source\\repos\\GestaoM&M\\GestaoM&M\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\Downloads\\GestaoM&M\\GestaoM&M\\GestaoM&M\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

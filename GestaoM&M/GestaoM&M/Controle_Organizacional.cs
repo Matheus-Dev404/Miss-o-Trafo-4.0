@@ -31,9 +31,12 @@ namespace GestaoIndustrial
             Console.WriteLine("=====|Ordem Crescente|=====");
             foreach (var item in crescente)
             {
-                Console.WriteLine($"{item.Nome_Maquina} - {item.Dados_Sensor}°C");
+                Console.WriteLine($"{item.Nome_Maquina} - {item.Dados_Sensor:F2}°C");
                 Console.WriteLine("---------------------------");
             }
+            Console.WriteLine("\nPressione algo para voltar...");
+            Console.ReadKey();
+            Console.Clear();
         }
 
         public static void Ord_Dec()
@@ -53,10 +56,12 @@ namespace GestaoIndustrial
             Console.WriteLine("=====|Ordem Decrescente|=====");
             foreach (var item in decrescente)
             {
-                Console.WriteLine($"{item.Nome_Maquina} - {item.Dados_Sensor}°C");
+                Console.WriteLine($"{item.Nome_Maquina} - {item.Dados_Sensor:F2}°C");
                 Console.WriteLine("---------------------------");
             }
-
+            Console.WriteLine("\nPressione algo para voltar...");
+            Console.ReadKey();
+            Console.Clear();
 
         }
 
@@ -81,7 +86,7 @@ namespace GestaoIndustrial
 
             foreach (var item in top3)
             {
-                Console.WriteLine($"{item.Nome_Maquina} - {item.Dados_Sensor}°C");
+                Console.WriteLine($"{item.Nome_Maquina} - {item.Dados_Sensor:F2}°C");
                 Console.WriteLine("---------------------------");
             }
             Console.WriteLine("\nPressione algo para voltar...");

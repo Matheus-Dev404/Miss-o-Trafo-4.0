@@ -22,6 +22,7 @@ namespace GestaoIndustrial
 
             while (menu)
             {
+                Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("=====|Bem Vindo ao Sistema de Controle De Operação|=====");
                 Console.WriteLine("==================|Escolha uma opção:|==================");
@@ -72,6 +73,7 @@ namespace GestaoIndustrial
 
             while (menu)
             {
+                Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("=====|Bem Vindo ao Sistema de Controle De Operação|=====");
                 Console.WriteLine("==================|Escolha uma opção:|==================");
@@ -121,6 +123,7 @@ namespace GestaoIndustrial
 
             while (menu)
             {
+                Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("=====|Bem Vindo ao Sistema de Controle De Operação|=====");
                 Console.WriteLine("==================|Escolha uma opção:|==================");
@@ -162,6 +165,7 @@ namespace GestaoIndustrial
 
             while (menu)
             {
+                Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("=====|Bem Vindo ao Sistema de Controle De Operação|=====");
                 Console.WriteLine("==================|Escolha uma opção:|==================");

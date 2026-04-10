@@ -27,14 +27,14 @@ namespace GestaoIndustrial
 
             foreach (C_Operacao C_O in C_Operacao.Operacao)
             {
-                soma = +C_O.Dados_Sensor;
+                soma += C_O.Dados_Sensor;
             }
 
             double media = soma / C_Operacao.Operacao.Count;
 
             int contador = 0;
             Console.WriteLine("=====|Leituras Acima da Média|=====\n");
-            Console.WriteLine($"´Média calculada: {media:F2}\n");
+            Console.WriteLine($"Média calculada: {media:F2}\n");
             foreach (C_Operacao C_O in C_Operacao.Operacao)
             {
                 if (C_O.Dados_Sensor > media)
@@ -93,7 +93,7 @@ namespace GestaoIndustrial
                 return;
             }
 
-            double Valor_Limite = 85;
+            double Valor_Limite = 85.00;
             int contador = 0;
 
             foreach (C_Operacao C_O in C_Operacao.Operacao)
@@ -102,7 +102,7 @@ namespace GestaoIndustrial
                 {
                     Console.WriteLine("=====|Transformadores APROVADOS para próxima etapa|=====\n");
                     Console.WriteLine($"Transformador: {C_O.Nome_Maquina}");
-                    Console.WriteLine($"Leitura do sensor: {C_O.Dados_Sensor}°C");
+                    Console.WriteLine($"Leitura do sensor: {C_O.Dados_Sensor:F2}°C");
                     Console.WriteLine("-----------------------------");
                     contador++;
                 }
@@ -110,11 +110,15 @@ namespace GestaoIndustrial
                 {
                     Console.WriteLine("=====|Transformadores Para INSPEÇÃO|=====\n");
                     Console.WriteLine($"Transformador: {C_O.Nome_Maquina}");
-                    Console.WriteLine($"Leitura do sensor: {C_O.Dados_Sensor}°C");
+                    Console.WriteLine($"Leitura do sensor: {C_O.Dados_Sensor:F2}°C");
                     Console.WriteLine("-----------------------------");
                 }
             }
-
+            Console.WriteLine("\nPressione algo para voltar...");
+            Console.ReadKey();
+            Console.Clear();
         }
+
     }
+    
 }

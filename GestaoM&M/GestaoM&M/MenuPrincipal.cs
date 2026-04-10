@@ -18,8 +18,8 @@ namespace GestaoIndustrial
 
             while (menu)
             {
-                Console.ForegroundColor = ConsoleColor.Green;
                 Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("=====|Bem Vindo ao Sistema de Gestão Industrial|=====");
                 Console.WriteLine("================|Escolha uma opção:|=================");
                 Console.WriteLine("1. Controle de operação" + "\n2. Controle de segurança" + "\n3. Controle de leitura crítica" + "\n4. Controle organizacional de dados" + "\n0. Sair");
